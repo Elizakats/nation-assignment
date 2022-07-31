@@ -1,0 +1,26 @@
+<div>
+<h4>Countries Stats</h4>
+
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">Country</th>
+    <th scope="col">Code</th>
+    <th scope="col">Population</th>
+    <th scope="col">GDP</th>
+    <th scope="col">Year</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <tr *ngFor="let countryStat of countryStatsArray; index as i">
+    <td> {{ countryStat.countryName }} </td>
+    <td>{{ countryStat.countryCode3 }}</td>
+    <td>{{ countryStat.population | number }}</td>
+    <td>{{ countryStat.gdp | number }}</td>
+    <td>{{ countryStat.year}}</td>
+  </tr>
+  </tbody>
+</table>
+
+</div>

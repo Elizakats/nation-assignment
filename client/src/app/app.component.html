@@ -1,0 +1,16 @@
+<h1>Angular Router App</h1>
+<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+<nav>
+  <ul>
+      <a routerLink="/country-list" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <button class="btn btn-info text-white m-2">Countries</button></a>
+
+      <a routerLink="/country-stats" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <button class="btn btn-info text-white m-2">Countries Stats</button></a>
+  </ul>
+</nav>
+
+<!-- The routed views render in the <router-outlet>-->
+<div class="mx-4">
+  <router-outlet></router-outlet>
+</div>
