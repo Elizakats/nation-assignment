@@ -1,9 +1,8 @@
 # nation-assignment
 
 This repository contains an assignment for a Fullstack Software Engineer job opening. It consists of a client and a server. 
-The project is about nations' populations. 
 
-The assignment requirements can be found in [assignment.pdf](https://github.com/Elizakats/nation-assignment/blob/main/assignment.pdf).
+The project is about nations' populations. The assignment requirements can be found in [assignment.pdf](https://github.com/Elizakats/nation-assignment/blob/main/assignment.pdf).
 
 Note that the third screen has not be created.
 
