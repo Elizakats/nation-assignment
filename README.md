@@ -17,7 +17,7 @@ Note that the third screen has not be created.
 ## Server
 The server provides a REST API for countries and relevant statistics.
 
-Build with Maven v3.8.6 on Java 8.
+Build with Maven v3.8.6 on Java 8 with Spring Framework
 
 Server connects to a MySQL Database. In order to launch you need pass the enviroment variables below:
 - DB_HOST
@@ -29,6 +29,6 @@ Server connects to a MySQL Database. In order to launch you need pass the enviro
 You may initialize your database with [nation.sql](https://github.com/Elizakats/nation-assignment/blob/main/server/docs/nation.sql)
 
 ## Client
-The client is an Angular application rendering 3 screens. 
+The client is an Angular/Typescript application rendering 3 screens. 
 
 Build with Node v14.17.5, npm V6.14.14 on Angular 14.1
