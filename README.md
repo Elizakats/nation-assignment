@@ -1,7 +1,10 @@
 # nation-assignment
 
 This repository contains an assignment for a Fullstack Software Engineer job opening. It consists of a client and a server. 
-The project is about nations' populations.
+The project is about nations' populations. 
+
+The assignment requirements can be found in [assignment.pdf](https://github.com/Elizakats/nation-assignment/blob/main/assignment.pdf)
+Note that the third screen has not be created.
 
 ## Repository structure
 ```
@@ -23,7 +26,9 @@ Server connects to a MySQL Database. In order to launch you need pass the enviro
 - DB_USERNAME
 - DB_PASSWORD
 
+You may initialize your database with [nation.sql](https://github.com/Elizakats/nation-assignment/blob/main/server/docs/nation.sql)
+
 ## Client
-The client is an Angular application rendering 3 screens.
+The client is an Angular application rendering 3 screens. 
 
 Build with Node v14.17.5, npm V6.14.14 on Angular 14.1
